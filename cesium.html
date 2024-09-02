@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cesium Viewer</title>
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.116/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.116/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+  <!-- compass -->
+  <script src="https://cdn.jsdelivr.net/npm/@dvgis/cesium-widget"></script>
+  <link href="https://cdn.jsdelivr.net/npm/@dvgis/cesium-widget/dist/cesium.widget.min.css" rel="stylesheet">
+  <!-- Local timezone -->
+  <script src="https://cdn.jsdelivr.net/npm/luxon@1.25.0/build/global/luxon.min.js"></script>
+  <!-- custom css -->
+  <link href="./cesium/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <div id="toolbar"></div>
+  
+  <script type="module" src="./cesium/js/viewer.js"></script>
+  <script type="module" src="./cesium/js/tileset.js"></script>
+  <script type="module" src="./cesium/js/hideElement.js"></script>
+  <script type="module" src="./cesium/js/camera.js"></script>
+  <script type="module" src="./cesium/js/3DTilesProperties.js"></script>
+  <script type="module" src="./cesium/js/customButton.js"></script>
+</body>
+</html>

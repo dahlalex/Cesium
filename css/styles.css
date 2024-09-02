@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#cesiumContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#toolbar {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+}
+
+.hide-element {
+  display: none !important;
+}
+
+.cesium-viewer-toolbar {
+  right: 17px;
+}
+
+.cesium-navigation-help {
+  z-index: 3;
+}
+
+.cesium-infoBox-visible {
+  z-index: 2;
+}
+
+.cesium-compass {
+  top: 60px;
+  right: 25px;
+  z-index: 1;
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.cesium-baseLayerPicker-dropDown {
+  z-index: 2;
+}
+
+.out-ring {
+  fill: #303336 !important;
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.out-ring svg {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.rotation_marker {
+  display: none !important;
+}
